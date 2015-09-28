@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>MyLibrary</id>
+    <version>1.0.0</version>
+    <title></title>
+    <authors>Bart</authors>
+    <owners>Bart</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Test package for .rd.xml issue</description>
+    <summary></summary>
+    <releaseNotes></releaseNotes>
+    <language />
+    <dependencies>
+      <group targetFramework="uap10.0">
+        <dependency id="System.Diagnostics.Debug" version="4.0.10" />
+        <dependency id="System.Runtime" version="4.0.20" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+      <file src="MyLibrary\bin\Release\MyLibrary.*" target="lib\uap10.0\" />
+      <file src="MyLibrary\bin\Release\MyLibrary\Properties\MyLibrary.rd.xml" target="lib\uap10.0\MyLibrary\Properties\MyLibrary.rd.xml" />
+	</files>
+</package>

@@ -141,7 +141,7 @@ publish/
 *.lock.json
 
 # NuGet Packages
-*.nupkg
+# *.nupkg # really want to add my test packages
 # The packages folder can be ignored because of Package Restore
 **/packages/*
 # except build/, which is used as an MSBuild target.
