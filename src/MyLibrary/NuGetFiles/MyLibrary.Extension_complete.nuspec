@@ -24,6 +24,5 @@
   </metadata>
   	<files>
       <file src="MyLibrary.Extension\bin\Release\MyLibrary.Extension.*" target="lib\uap10.0\" />
-      <file src="MyLibrary.Extension\bin\Release\MyLibrary.Extension\Properties\MyLibrary.Extension.rd.xml" target="lib\uap10.0\MyLibrary.Extension\Properties\MyLibrary.Extension.rd.xml" />
 	</files>
 </package>

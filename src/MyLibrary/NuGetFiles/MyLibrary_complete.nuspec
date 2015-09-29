@@ -20,6 +20,5 @@
   </metadata>
   <files>
       <file src="MyLibrary\bin\Release\MyLibrary.*" target="lib\uap10.0\" />
-      <file src="MyLibrary\bin\Release\MyLibrary\Properties\MyLibrary.rd.xml" target="lib\uap10.0\MyLibrary\Properties\MyLibrary.rd.xml" />
-	</files>
+  </files>
 </package>
