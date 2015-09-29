@@ -111,7 +111,7 @@
   <ItemGroup>
     <Compile Include="Bar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Content Include="Properties\MyLibrary.Extension.rd.xml" />
+    <EmbeddedResource Include="Properties\MyLibrary.Extension.rd.xml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MyLibrary\MyLibrary.csproj">

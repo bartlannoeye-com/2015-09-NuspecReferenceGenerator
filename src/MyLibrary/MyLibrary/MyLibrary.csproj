@@ -111,7 +111,7 @@
   <ItemGroup>
     <Compile Include="Foo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Content Include="Properties\MyLibrary.rd.xml" />
+    <EmbeddedResource Include="Properties\MyLibrary.rd.xml" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
